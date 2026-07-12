@@ -23,3 +23,44 @@ button {
   border: 0;
   cursor: pointer;
 }
+
+body {
+  color: #d6f1ca;
+  font-family: 'Geist Mono', monospace;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+/* HEADER */
+
+.container {
+  max-width: 1740px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #191919;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+
+.meniu__list {
+  display: flex;
+  gap: 5px;
+}
+
+.meniu__link {
+  padding: 10px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+  text-transform: uppercase;
+}
