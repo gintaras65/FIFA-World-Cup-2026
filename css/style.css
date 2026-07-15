@@ -19,7 +19,99 @@ ul {
 
 button {
   background-color: transparent;
+  color: inherit;
   padding: 0;
   border: 0;
   cursor: pointer;
 }
+
+body {
+  color: #d6f1ca;
+  font-family: 'Geist Mono', monospace;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+/* HEADER */
+
+.container {
+  max-width: 1760px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #191919;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.meniu__list {
+  display: flex;
+  gap: 5px;
+}
+
+.meniu__link {
+  padding: 10px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+/* MAIN SECTION TOP */
+
+.top {
+  background-image: url('../images/top-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top-center;
+}
+
+.top__inner {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - 96px);
+  max-width: 900px;
+}
+
+.top__pretext {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.top__title {
+  font-family: 'Tilt Warp', sans-serif;
+  font-size: 150px;
+  line-height: 140px;
+  font-weight: 400;
+  letter-spacing: -6px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.top__text {
+  max-width: 495px;
+  margin-bottom: 40px;
+}
+
+.top__btn {
+  background-color: #138561;
+  padding: 20px;
+  margin-bottom: 180px;
+  max-width: 608px;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 600;
+}
+  
