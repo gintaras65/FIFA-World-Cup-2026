@@ -33,12 +33,17 @@ body {
   font-weight: 600;
 }
 
+[class*='__container'] {
+  max-width: 1740px;
+  padding-inline: 10px;
+  margin: 0 auto;
+}
+
 /* HEADER */
 
 .container {
-  max-width: 1760px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1740px;
+  padding-inline: 10px;
   margin: 0 auto;
 }
 
@@ -50,7 +55,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 20px;
+  padding: 50px 10px;
 }
 
 .meniu__list {
@@ -73,7 +78,8 @@ body {
   background-image: url('../images/top-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top-center;
+  background-position: top center;
+  padding: 180px 0 180px ;
 }
 
 .top__inner {
@@ -81,19 +87,20 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: calc(100vh - 96px);
+  min-height: calc(100vh - 136px);
   max-width: 900px;
 }
 
 .top__pretext {
   font-size: 16px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  /* padding-top: 180px; */
 }
 
 .top__title {
   font-family: 'Tilt Warp', sans-serif;
-  font-size: 150px;
-  line-height: 140px;
+  font-size: 140px;
+  line-height: 160px;
   font-weight: 400;
   letter-spacing: -6px;
   text-transform: uppercase;
@@ -108,10 +115,71 @@ body {
 .top__btn {
   background-color: #138561;
   padding: 20px;
-  margin-bottom: 180px;
+  /* margin-bottom: 180px; */
   max-width: 608px;
-  height: 56px;
   font-size: 16px;
   font-weight: 600;
 }
-  
+
+/* -----SECTION EVENT----- */
+
+.event {
+  background-color: #191919;
+  padding-top: 100px;
+}
+
+.event__title {
+  font-family: 'Tilt Warp', sans-serif;
+  max-width: 1130px;
+  padding: 0 10px;
+  margin: 0 auto 40px;
+  font-size: 100px;
+  line-height: 89px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.event__text {
+  max-width: 720px;
+  padding: 0 10px 40px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.event__list {
+  padding: 420px 0 145px;
+  background-image: url('../images/event-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.event__list-inner {
+  max-width: 1480px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.event__list-item {
+  padding-left: 20px;
+  border-left: 1px solid rgba(214, 241, 202, .2);
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.event__list-item dd {
+  font-family: 'Tilt Warp', sans-serif;
+  font-weight: 400;
+  font-size: 150px;
+  text-transform: uppercase;
+  letter-spacing: -6px;
+
+}
