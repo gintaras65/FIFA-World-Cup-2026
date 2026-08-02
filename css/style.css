@@ -23,3 +23,167 @@ button {
   border: 0;
   cursor: pointer;
 }
+
+body {
+  color: #d6f1ca;
+  font-family: 'Geist Mono', monospace;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+[class*='__container'] {
+  max-width: 1740px;
+  padding-inline: 10px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.container {
+  max-width: 1740px;
+  padding-inline: 10px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #191919;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10px;
+}
+
+.meniu__list {
+  display: flex;
+  gap: 5px;
+}
+
+.meniu__link {
+  padding: 10px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+/* MAIN SECTION TOP */
+
+.top {
+  width: 100%;
+  height: 960px;
+  background-image: url('../images/top-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 180px 0 180px;
+}
+
+.top__inner {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - 136px);
+  max-width: 900px;
+}
+
+.top__pretext {
+  font-size: 16px;
+  margin-bottom: 10px;
+  /* padding-top: 180px; */
+}
+
+.top__title {
+  font-family: 'Tilt Warp', sans-serif;
+  font-size: 140px;
+  line-height: 160px;
+  font-weight: 400;
+  letter-spacing: -6px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.top__text {
+  max-width: 495px;
+  margin-bottom: 40px;
+}
+
+.top__btn {
+  background-color: #138561;
+  padding: 20px;
+  /* margin-bottom: 180px; */
+  max-width: 608px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* -----SECTION EVENT----- */
+
+.event {
+  background-color: #191919;
+  padding-top: 100px;
+}
+
+.event__title {
+  font-family: 'Tilt Warp', sans-serif;
+  max-width: 1130px;
+  padding: 0 10px;
+  margin: 0 auto 40px;
+  font-size: 100px;
+  line-height: 89px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.event__text {
+  max-width: 720px;
+  padding: 0 10px 40px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.event__list {
+  padding: 420px 0 145px;
+  background-image: url('../images/event-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.event__list-inner {
+  max-width: 1480px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.event__list-item {
+  padding-left: 20px;
+  border-left: 1px solid rgba(214, 241, 202, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.event__list-item dd {
+  font-family: 'Tilt Warp', sans-serif;
+  font-weight: 400;
+  font-size: 150px;
+  text-transform: uppercase;
+  letter-spacing: -6px;
+}
+
+.players {
+  background-color: #191919;
+  padding: 100px 0;
+}
