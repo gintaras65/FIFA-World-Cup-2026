@@ -75,11 +75,13 @@ body {
 /* MAIN SECTION TOP */
 
 .top {
+  width: 100%;
+  height: 960px;
   background-image: url('../images/top-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  padding: 180px 0 180px ;
+  padding: 180px 0 180px;
 }
 
 .top__inner {
@@ -94,7 +96,6 @@ body {
 .top__pretext {
   font-size: 16px;
   margin-bottom: 10px;
-  /* padding-top: 180px; */
 }
 
 .top__title {
@@ -115,7 +116,6 @@ body {
 .top__btn {
   background-color: #138561;
   padding: 20px;
-  /* margin-bottom: 180px; */
   max-width: 608px;
   font-size: 16px;
   font-weight: 600;
@@ -138,7 +138,6 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-
 }
 
 .event__text {
@@ -169,7 +168,7 @@ body {
 
 .event__list-item {
   padding-left: 20px;
-  border-left: 1px solid rgba(214, 241, 202, .2);
+  border-left: 1px solid rgba(214, 241, 202, 0.2);
   display: flex;
   flex-direction: column;
   gap: 52px;
@@ -181,5 +180,73 @@ body {
   font-size: 150px;
   text-transform: uppercase;
   letter-spacing: -6px;
+}
 
+/* -----SECTION PLAYERS----- */
+
+.players {
+  background-color: #191919;
+  padding: 84px 0;
+}
+
+.players__title {
+  font-family: 'Tilt Warp', sans-serif;
+  font-size: 100px;
+  line-height: 89px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.players__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 140px 10px;
+}
+
+.players__item {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.players__img {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  /* max-height: 100%; */
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.plyers__item-box {
+  padding: 24px 10px 20px 10px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 24px;
+  left: 20px;
+  right: 20px;
+}
+
+.players__item-name {
+  font-family: 'Tilt Warp', sans-serif;
+  font-weight: 400;
+  color: #191919;
+  font-size: 28px;
+  line-height: 30px;
+  text-transform: capitalize;
+  letter-spacing: -1%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.players__item-description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+  color: rgba(25, 25, 25, 0.43);
 }
