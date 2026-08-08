@@ -255,7 +255,52 @@ body {
 
 .atmosphere {
   background-image: url('../images/atmosphere-bg.jpg');
+
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position:  center center;
   background-size: cover;
+}
+
+.atmosphere__inner {
+  min-height: 100svh;
+  padding-top: 40px;
+  padding-bottom: 114px;
+  display: flex;
+  flex-direction: column;
+}
+
+.atmosphere__box {
+  max-width: 968px;
+  padding: 20px 44px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  background: rgba(11, 13, 19, 0.3);
+  margin: 0 auto auto;
+  text-align: center;
+}
+
+.atmosphere__title {
+  font-family: 'Tilt Warp', sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 89%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.atmosphere__text {
+  line-height: 24px;
+  text-align: center;
+}
+
+.atmosphere__list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-size: 16px;
+  border-top: 1px;
+  border-top: 1px solid rgba(214, 241, 202, 0.2);
+
 }
