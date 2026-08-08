@@ -250,3 +250,12 @@ body {
   line-height: 120%;
   color: rgba(25, 25, 25, 0.43);
 }
+
+/* -----SECTION ATMOSPHERE----- */
+
+.atmosphere {
+  background-image: url('../images/atmosphere-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
