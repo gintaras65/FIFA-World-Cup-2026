@@ -303,3 +303,61 @@ body {
   border-top: 1px;
   border-top: 1px solid rgba(214, 241, 202, 0.2);
 }
+
+/* -----SECTION NEXT MATCH----- */
+
+.next-match {
+background-image: url("../images/next-bg.jpg");
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover; 
+padding: 237px 0;
+text-align: center;
+}
+
+.next-match__title {
+  font-family: 'Tilt Warp', sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 89%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  margin:0 auto 40px;
+  max-width: 785px;
+}
+
+.next-match__text {
+  max-width: 577px;
+  margin:0 auto 40px;
+}
+
+.next-match__btn {
+  display: inline-block;
+  background-color: #138561;
+  padding: 20px 15px;
+  fzont-size: 16px;
+  line-height: 16px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #191919;
+  padding: 40px 0 80px;
+  height: 70px;
+}
+
+.footer__top {
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copy {
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(214, 241, 202, 0.7 );
+}
+
+
